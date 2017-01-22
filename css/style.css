@@ -1,3 +1,17 @@
+nav .btn a{
+  color: white !important;
+  padding: 0px;
+}
+nav .btn{
+  padding: 20px;
+  box-sizing: border-box;
+  height: 50px;
+  margin: 10px;
+}
+.center{
+    margin: 0 auto;
+    width:60% 
+}
 header{
   background-image: url('https://s-media-cache-ak0.pinimg.com/originals/04/a7/44/04a7448c3dde97f873eec46e85641aab.jpg');
   background-size: cover;
@@ -30,7 +44,12 @@ header .text-welcome{
   font-size: 26px;
   line-height: 55px;
 }
-
+.loginForm{
+  padding-top: 50px;
+}
+.loginForm input:not(.btn){
+  color: black;
+}
 .radius{
   border-radius:50%;
 }
