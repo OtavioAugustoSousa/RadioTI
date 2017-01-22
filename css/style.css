@@ -1,0 +1,141 @@
+header{
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/04/a7/44/04a7448c3dde97f873eec46e85641aab.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+header .container{
+  padding: 250px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+header .text-intro{
+  font-size: 40pt;
+}
+header .text-welcome{
+  font-size: 20pt;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn-scroll{
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+}
+.btn-scroll:hover{
+  width: 60px;
+  height: 60px;
+  font-size: 26px;
+  line-height: 55px;
+}
+
+.radius{
+  border-radius:50%;
+}
+main .container{
+  padding-top: 100px;
+}
+.about{
+  padding-top: 30px;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-bottom: 100px;
+}
+.img img{
+  width: 100%;
+}
+#newest{
+  background-color: #eee;
+  padding-bottom: 100px;
+  margin: 0px;
+  width: 100%;
+}
+.newest {
+  padding-bottom: 50px;
+}
+.timeline ul{
+  position: relative;
+  list-style: none;
+}
+.timeline ul::before{
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #e1e1e1;
+  margin-left: -1.5px;
+}
+.timeline li{
+  margin-bottom: 100px;
+  position: relative;
+  min-height: 200px;
+}
+.timeline .timeline-image{
+  left: 50%;
+  margin-left: -120px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fed136;
+  color: #fff;
+  border-radius: 100%;
+  border: 7px solid #e1e1e1;
+  text-align: center;
+}
+.timeline .timeline-image .hover{
+  position: absolute;
+  font-size: 50pt;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.64);
+  border-radius: 50%;
+  padding-top: 30%;
+  cursor: pointer;
+  visibility: hidden;
+}
+.timeline .timeline-image:hover .hover{
+  visibility: visible;
+}
+.timeline .timeline-card{
+  width: calc(50% - 100px);
+  padding: 0 40px 0 20px;
+  position: relative;
+  text-align: right;
+}
+.timeline h4{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.timeline-inverted>.timeline-card {
+  float: right;
+  text-align: left;
+  padding: 0 30px 20px 20px;
+}
+footer{
+  background-color: #eee;
+  padding: 50px;
+}
+.social-buttons li{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 20pt;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+.social-buttons li:hover{
+background-color: #fed136;
+}
+.social-buttons li a{
+  color: white;
+}
+.social-buttons li a:hover{
+  text-decoration: none;
+}
