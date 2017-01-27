@@ -37,7 +37,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav sections">
-          <li class=""><a href="index.html#about">Sobre a Rádio <span class="sr-only">(current)</span></a></li>
+          <li class=""><a  class="scroll">Sobre a Rádio <span class="sr-only">(current)</span></a></li>
           <li><a href="index.html#newest">Novidades <span class="sr-only">(current)</span></a></li>
           <li><a href="index.html#morePlayed">Mais Tocadas <span class="sr-only">(current)</span></a></li>
         </ul>
@@ -57,11 +57,9 @@
       <div class="text-intro">
         O SEU BIT SONORO!!!
       </div>
-      <a href="#about">
         <button class="btn btn-default radius btn-scroll">
         <span class="glyphicon glyphicon-chevron-down"></span>
       </button>
-    </a>
     </div>
   </header>
   <main>
@@ -119,12 +117,12 @@
      </div>
       <div class="container" id="morePlayed">
         <div class="text-center newest"><h2>MAIS TOCADAS</h2></div>
-        <div class="timeline col-sm-offset-4 col-sm-8">
+        <div class="timeline col-sm-offset-2 col-sm-8">
           <ul>
             <li>
               <div class="timeline-image">
                 <div class="hover">
-                  <span class="glyphicon glyphicon-play"></span>
+                  <span class="glyphicon glyphicon-play" data-audio="https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"></span>
                 </div>
                 <img class="img-circle img-responsive" src="https://s-media-cache-ak0.pinimg.com/736x/6c/8c/d8/6c8cd8390a5e682b774edc225e1fc678.jpg"/>
             </div>
@@ -138,7 +136,7 @@
           <li class="timeline-inverted">
             <div class="timeline-image">
               <div class="hover">
-                <span class="glyphicon glyphicon-play"></span>
+                <span class="glyphicon glyphicon-play" data-audio="https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3"></span>
               </div>
               <img class="img-circle img-responsive" src="https://draw.acharts.net/cover/60742-54d01316f35c2-l.jpg"/>
           </div>
@@ -173,7 +171,12 @@
               </div>
           </div>
       </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/gsap/src/minified/jquery.gsap.min.js"></script>
+    <script src="node_modules/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/capa.js"></script>
   </body>
   </html>
